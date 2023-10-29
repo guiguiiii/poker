@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="background.jpg">resource/images/background.jpg</file>
+        <file alias="club.png">resource/images/club.png</file>
+        <file alias="diamond.png">resource/images/diamond.png</file>
+        <file alias="spade.png">resource/images/spade.png</file>
+        <file alias="heart.png">resource/images/heart.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="style.qss">resource/qss/style.qss</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file alias="poker.ico">resource/icons/poker.ico</file>
+        <file alias="poker.png">resource/icons/poker.png</file>
+    </qresource>
+</RCC>

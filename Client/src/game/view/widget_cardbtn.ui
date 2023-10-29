@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget_CardBtn</class>
+ <widget class="QWidget" name="Widget_CardBtn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>85</width>
+    <height>135</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>85</width>
+    <height>135</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>85</width>
+    <height>135</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Widget_Main{
+	border: 1px solid balck;
+	border-radius: 4px;
+}
+
+QLabel{	
+	font: 20pt;
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="Widget_Main" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#Widget_Main{
+	background-color: rgb(255, 255, 250);
+}</string>
+     </property>
+     <widget class="QLabel" name="lbl_rank">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>12</y>
+        <width>27</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>A</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignHCenter|Qt::AlignTop</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_suit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>47</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../../../resource.qrc">:/images/spade.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_suit_big">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>70</y>
+        <width>45</width>
+        <height>45</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../../../resource.qrc">:/images/spade.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_pick">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>105</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid grey;
+border-radius: 10px;
+background-color: rgba(220,0,0,220);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

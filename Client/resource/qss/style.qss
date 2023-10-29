@@ -1,0 +1,94 @@
+*{
+	font: 700 30pt "楷体";
+}
+
+.QFrame{
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+QPushButton{
+	font: 24pt;
+	border:1px solid black;
+	border-radius:25px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:1, stop:0 rgba(255, 250, 233, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:hover{
+	font: 25pt;
+	background-color: qlineargradient(spread:pad, x1:0.66, y1:0.66, x2:0, y2:0, stop:0 rgba(250, 249, 230, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QPushButton:pressed{
+	font: 25pt;
+	border:1px solid rgba(100, 100, 100, 255);
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0.5, x2:0, y2:0, stop:0 rgba(255, 244, 228, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QComboBox{
+	border:1px solid black;
+	border-radius:30px;
+	padding-left:40px;
+	padding-bottom:3px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(255, 250, 233, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QComboBox QAbstractItemView{
+	outline: 0px solid black;
+	border:1px solid grey;
+	border-radius:10px;
+	background-color: rgba(255, 255, 255, 0);
+	selection-background-color :rgba(255, 255, 255, 0);
+}
+QComboBox QAbstractItemView:item{
+	padding-left:40px;
+	border:1px solid black;
+	border-radius:20px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(255, 250, 243, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QComboBox QAbstractItemView::item:selected{
+	color:black;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(255, 250, 233, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QLineEdit{
+	font: 20pt;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(255, 250, 233, 255), stop:1 rgba(255, 255, 255, 255));
+	selection-color: rgb(0, 0, 0);
+	selection-background-color: rgb(255, 245, 186);
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+QTextEdit{
+	font: 20pt;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(255, 250, 233, 255), stop:1 rgba(255, 255, 255, 255));
+	selection-color: rgb(0, 0, 0);
+	selection-background-color: rgb(255, 245, 186);
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+QSpinBox{
+	font: 26pt;
+	border:1px solid black;
+	border-radius:10px;
+ 	background-color: qlineargradient(spread:pad, x1:1, y1:0.5, x2:0, y2:1, stop:0 rgba(255, 250, 233, 255), stop:1 rgba(255, 255, 255, 255));
+	selection-color: rgb(0, 0, 0);
+	selection-background-color: rgb(255, 245, 186);
+}
+
+QTextBrowser{
+	border: 1px solid black;
+	background-color: rgba( 245, 245, 245, 200 );
+	selection-color: rgb(0, 0, 0);
+	selection-background-color: rgb(255, 245, 186);
+}
+
+QScrollArea{
+	border: none;
+	background-color: transparent;
+}
